@@ -143,7 +143,7 @@ public class PageController {
 			
 			
 			mv.addObject("title", "403 - Access Denied");
-			mv.addObject("errorTitle", "Aha! Caught You..");
+			mv.addObject("errorTitle", "Not available");
 			mv.addObject("errorDescription", "You are not authorized to view this page!");
 			return mv;
 		}

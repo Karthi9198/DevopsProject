@@ -83,8 +83,7 @@
 							<h4>
 								<a href="#">Second Product</a>
 							</h4>
-							<p>This is a short description. Lorem ipsum dolor sit amet,
-								consectetur adipiscing elit.</p>
+							<p>This is a short description.</p>
 						</div>
 						<div class="ratings">
 							<p class="pull-right">12 reviews</p>
@@ -107,8 +106,7 @@
 							<h4>
 								<a href="#">Third Product</a>
 							</h4>
-							<p>This is a short description. Lorem ipsum dolor sit amet,
-								consectetur adipiscing elit.</p>
+							<p>This is a short description.</p>
 						</div>
 						<div class="ratings">
 							<p class="pull-right">31 reviews</p>
@@ -131,8 +129,7 @@
 							<h4>
 								<a href="#">Fourth Product</a>
 							</h4>
-							<p>This is a short description. Lorem ipsum dolor sit amet,
-								consectetur adipiscing elit.</p>
+							<p>This is a short description.</p>
 						</div>
 						<div class="ratings">
 							<p class="pull-right">6 reviews</p>
@@ -155,8 +152,7 @@
 							<h4>
 								<a href="#">Fifth Product</a>
 							</h4>
-							<p>This is a short description. Lorem ipsum dolor sit amet,
-								consectetur adipiscing elit.</p>
+							<p>This is a short description.</p>
 						</div>
 						<div class="ratings">
 							<p class="pull-right">18 reviews</p>
@@ -170,7 +166,29 @@
 						</div>
 					</div>
 				</div>
-
+				<div class="col-sm-4 col-lg-4 col-md-4">
+					<div class="thumbnail">
+						<img src="http://placehold.it/320x150" alt="">
+						<div class="caption">
+							<h4 class="pull-right">$94.99</h4>
+							<h4>
+								<a href="#">6th Product</a>
+							</h4>
+							<p>This is a short description.</p>
+						</div>
+						<div class="ratings">
+							<p class="pull-right">20 reviews</p>
+							<p>
+								<span class="glyphicon glyphicon-star"></span> <span
+									class="glyphicon glyphicon-star"></span> <span
+									class="glyphicon glyphicon-star"></span> <span
+									class="glyphicon glyphicon-star"></span> <span
+									class="glyphicon glyphicon-star-empty"></span>
+							</p>
+						</div>
+					</div>
+				</div>
+<!-- 
 				<div class="col-sm-4 col-lg-4 col-md-4">
 					<h4>
 						<a href="#">Like this template?</a>
@@ -185,7 +203,7 @@
 						href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">View
 						Tutorial</a>
 				</div>
-
+ -->
 			</div>
 
 		</div>

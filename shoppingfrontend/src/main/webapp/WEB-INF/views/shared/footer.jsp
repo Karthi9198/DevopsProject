@@ -1,14 +1,17 @@
- <div class="container footer" >
 
-        <hr>
+<div class="container footer">
 
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Company 2013 - Template by <a href="http://maxoffsky.com/">Maks</a>
-                    </p>
-                </div>
-            </div>
-        </footer>
+	<hr>
 
-    </div>
+	<footer>
+		<div class="row">
+			<div class="col-lg-12">
+				<p>
+					Copyright &copy; Company 2018 - The Book Shop 
+					<!-- <a	href="https://www.facebook.com/virtuoso45/">Visit Us</a> -->
+				</p>
+			</div>
+		</div>
+	</footer>
+
+</div>
