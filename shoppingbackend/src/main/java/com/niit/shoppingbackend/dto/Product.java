@@ -32,11 +32,11 @@ public class Product implements Serializable{
 	
 	private String code;
 	
-	@NotEmpty(message="Please enter the Product Name!")
+	@NotEmpty(message="Please enter the  Name!")
 	private String name;
 	
-	@NotEmpty(message="Please enter the Brand Name!")
-	private String brand;
+	@NotEmpty(message="Please enter the Author Name!")
+	private String author;
 	
 	@JsonIgnore
 	@NotEmpty(message="Please enter the Product Description!")
@@ -110,12 +110,12 @@ public class Product implements Serializable{
 		this.name = name;
 	}
 
-	public String getBrand() {
-		return brand;
+	public String getAuthor() {
+		return author;
 	}
 
-	public void setBrand(String brand) {
-		this.brand = brand;
+	public void setAuthor(String author) {
+		this.author = author;
 	}
 
 	public String getDescription() {
@@ -184,11 +184,11 @@ public class Product implements Serializable{
 
 	@Override
 	public String toString() {
-		return "Product [id=" + id + ", code=" + code + ", name=" + name + ", brand=" + brand + ", description="
+		return "Product [id=" + id + ", code=" + code + ", name=" + name + ", author=" + author + ", description="
 				+ description + ", unitPrice=" + unitPrice + ", quantity=" + quantity + ", active=" + active
 				+ ", categoryId=" + categoryId + ", supplierId=" + supplierId + ", purchases=" + purchases + ", views="
 				+ views + ", getId()=" + getId() + ", getCode()=" + getCode() + ", getName()=" + getName()
-				+ ", getBrand()=" + getBrand() + ", getDescription()=" + getDescription() + ", getUnitPrice()="
+				+ ", getAuthor()=" + getAuthor() + ", getDescription()=" + getDescription() + ", getUnitPrice()="
 				+ getUnitPrice() + ", getQuantity()=" + getQuantity() + ", isActive()=" + isActive()
 				+ ", getCategoryId()=" + getCategoryId() + ", getSupplierId()=" + getSupplierId() + ", getPurchases()="
 				+ getPurchases() + ", getViews()=" + getViews() + ", getClass()=" + getClass() + ", hashCode()="

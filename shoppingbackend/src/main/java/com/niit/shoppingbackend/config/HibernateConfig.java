@@ -48,6 +48,8 @@ public class HibernateConfig {
 		LocalSessionFactoryBuilder builder = new LocalSessionFactoryBuilder(datasource);
 		builder.addProperties(getHibernateProperties());
 		builder.scanPackages("com.niit.shoppingbackend.dto");
+		builder.scanPackages("com.niit.shoppingbackend.dao");
+		builder.scanPackages("com.niit.shoppingbackend.daoimpl");
 		return builder.buildSessionFactory();
 	}
 

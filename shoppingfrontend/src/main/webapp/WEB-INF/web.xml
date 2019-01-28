@@ -20,25 +20,25 @@
 			<max-request-size>4194304</max-request-size>
 			<file-size-threshold>1048576</file-size-threshold>
 		</multipart-config>
-		
+
 	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>dispatcher</servlet-name>
 		<url-pattern>/</url-pattern> <!-- indicates every urls will thru the front controller/DisptcherServlet -->
 	</servlet-mapping>
-	
-	<!--   Spring Security Configuration -->
-	
+
+	<!-- Spring Security Configuration -->
+
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
-			
+
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>/WEB-INF/spring-security.xml</param-value>
 	</context-param>
-	
+
 	<filter>
 		<filter-name>springSecurityFilterChain</filter-name>
 		<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
@@ -47,6 +47,6 @@
 	<filter-mapping>
 		<filter-name>springSecurityFilterChain</filter-name>
 		<url-pattern>/*</url-pattern>
-	</filter-mapping> 
+	</filter-mapping>
 
 </web-app>

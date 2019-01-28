@@ -31,7 +31,6 @@ public class Cart implements Serializable{
 	
 	// one to one mapping with user class
 	@OneToOne
-	@JoinColumn(name="uid")  // to add a different name apart from the default one <reference name>_<primary key of the table> i.e user_id
 	private User user;
 	
 	/*

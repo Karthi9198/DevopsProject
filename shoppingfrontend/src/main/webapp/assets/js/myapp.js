@@ -81,7 +81,7 @@ $(function() {
 								data : 'name'
 							},
 							{
-								data : 'brand'
+								data : 'author'
 							},
 							{
 								data : 'unitPrice',
@@ -193,7 +193,7 @@ $(function() {
 								data : 'name'
 							},
 							{
-								data : 'brand'
+								data : 'author'
 							},
 							{
 								data : 'quantity',

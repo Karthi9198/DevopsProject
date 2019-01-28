@@ -18,10 +18,10 @@
 				<li id="contact"><a href="${contextRoot}/contact">Contact</a></li>
 				<li id="listProducts"><a
 					href="${contextRoot}/show/all/products">View Products</a></li>
-				<security:authorize access = "hasAuthority('ADMIN')">	
+				<%-- <security:authorize access = "hasAuthority('ADMIN')">	 --%>
 				<li id="manageProducts"><a
 					href="${contextRoot}/manage/products">Manage Products</a></li>
-				</security:authorize>	
+				<%-- </security:authorize>	 --%>
 			</ul>
 			
 			<ul class="nav navbar-nav navbar-right">

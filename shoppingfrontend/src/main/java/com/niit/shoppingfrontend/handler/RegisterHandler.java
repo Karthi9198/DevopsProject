@@ -46,7 +46,8 @@ public class RegisterHandler {
 		//fetch the user
 		User user = model.getUser();
 		
-		if(user.getRole().equals("USER")) // to create a cart for the role : user
+		if(user.getRole().equals("USER"))
+		// to create a cart for the role : user
 		{
 			Cart cart = new Cart();
 			cart.setUser(user);
@@ -58,12 +59,11 @@ public class RegisterHandler {
 		user.setPassword(passwordEncoder.encode(user.getPassword()));
 		//save the user
 		userDAO.addUser(user);
+	/*
+	 *  Get and save address
+	 */
 		
-		/*
-		 * fetch and save address
-		 */
-		
-		//fetch the address
+		//Get the address
 		Address billing = model.getBilling();
 		
 		billing.setUser(user);
@@ -91,7 +91,7 @@ public class RegisterHandler {
 							);
 					transitionValue = "failure";
 				}
-		
+		//checking uniqueness of email id
 		if(userDAO.getByEmail(user.getEmail()) != null)
 		{
 			{

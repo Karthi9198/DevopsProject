@@ -24,9 +24,15 @@ public class ProductDAOImpl implements ProductDAO {
 	 */
 	@Override
 	public Product get(int id) {
-
+		try {
 		return sessionFactory.getCurrentSession().get(Product.class, Integer.valueOf(id));
 	}
+		catch(Exception ex) {		
+			ex.printStackTrace();			
+		}
+		return null;
+	}
+	
 
 	/*
 	 * adding a product

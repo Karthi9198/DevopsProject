@@ -18,7 +18,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Online Shopping - ${title}</title>
+<title>The Book Shop - ${title}</title>
 
 <script>
 	window.menu = '${title}';
@@ -53,8 +53,7 @@
 			<div class="container">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
-					<a class="navbar-brand" href="${contextRoot}/home">Online
-						Shopping</a>
+					<a class="navbar-brand" href="${contextRoot}/home">The Book Shop</a>
 				</div>
 			</div>
 		</nav>
@@ -118,8 +117,8 @@
 									<div class="form-group">
 										<div class="col-md-offset-4 col-md-8">
 											<input type="submit" value="Login" class="btn btn-primary" />
-											<input type = "hidden" name = "${_csrf.parameterName}" value = "${_csrf.token}" />
-										</div>
+										<%-- 	<input type = "hidden" name = "${_csrf.parameterName}" value = "${_csrf.token}" />
+										 --%></div>
 									</div>
 								</form>
 

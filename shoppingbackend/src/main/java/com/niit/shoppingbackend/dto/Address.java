@@ -53,7 +53,7 @@ public class Address implements Serializable{
 	private boolean shipping;
 	
 	@ManyToOne
-	@JoinColumn(name="uid")
+	
 	private User user;
 	
 	

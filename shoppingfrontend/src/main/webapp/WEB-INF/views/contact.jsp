@@ -1,4 +1,4 @@
-<!-- <div class="container">
+<!--  <div class="container">
 	<div class="navFooterColSpacerInner navAccessibility"></div>
 	<div class="navFooterLinkCol navAccessibility">
 		<div class="navFooterColHead">Connect with Us</div>
@@ -10,6 +10,8 @@
 					class="fa fa-twitter fa-3x"></i></a></li>
 			<li><a href="https://www.instagram.com/ka_art_hi_98/?hl=en"
 				class="instagram"><i class="fa fa-instagram fa-3x"></i></a></li>
+			<li><a href="https://github.com/Karthi9198"
+				class="instagram"><i class="fa fa-github fa-3x"></i></a></li>
 		</ul>
 	</div>
 	<div class="row">
@@ -18,7 +20,8 @@
 		<p>This is a Contact us page</p> </div>
 </div> -->
 
-<div class="box">
+<!-- Social media buttons in blocks -->
+ <div class="box">
 	<div class="container">
 		<div class="row">
 
@@ -33,11 +36,10 @@
 					</div>
 
 					<div class="text">
-						<span>Lorem ipsum dolor sit amet, id quo eruditi
-							eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+						<span></span>
 					</div>
 
-					<a href="#">Learn More</a>
+					<a href="https://www.instagram.com/ka_art_hi_98/?hl=en">Learn More</a>
 
 				</div>
 			</div>
@@ -53,11 +55,10 @@
 					</div>
 
 					<div class="text">
-						<span>Lorem ipsum dolor sit amet, id quo eruditi
-							eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+						<span></span>
 					</div>
 
-					<a href="#">Learn More</a>
+					<a href="https://twitter.com/1998_karthi">Learn More</a>
 
 				</div>
 			</div>
@@ -73,11 +74,10 @@
 					</div>
 
 					<div class="text">
-						<span>Lorem ipsum dolor sit amet, id quo eruditi
-							eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+						<span></span>
 					</div>
 
-					<a href="#">Learn More</a>
+					<a href="https://www.facebook.com/profile.php?id=100009607441603">Learn More</a>
 
 				</div>
 			</div>
@@ -93,11 +93,10 @@
 					</div>
 
 					<div class="text">
-						<span>Lorem ipsum dolor sit amet, id quo eruditi
-							eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+						<span></span>
 					</div>
 
-					<a href="#">Learn More</a>
+					<a href="https://in.pinterest.com/login/">Learn More</a>
 
 				</div>
 			</div>
@@ -113,11 +112,10 @@
 					</div>
 
 					<div class="text">
-						<span>Lorem ipsum dolor sit amet, id quo eruditi
-							eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+						<span></span>
 					</div>
 
-					<a href="#">Learn More</a>
+					<a href="https://plus.google.com/102907462221345139615">Learn More</a>
 
 				</div>
 			</div>
@@ -133,13 +131,12 @@
 					</div>
 
 					<div class="text">
-						<span>Lorem ipsum dolor sit amet, id quo eruditi
-							eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+						<span></span>
 					</div>
 
-					<a href="#">Learn More</a>
+					<a href="https://github.com/Karthi9198">Learn More</a>
 
 				</div>
 			</div>
 
-		</div>
+		</div> 

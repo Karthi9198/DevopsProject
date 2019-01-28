@@ -48,7 +48,7 @@ public class User implements Serializable{
 	@NotEmpty(message="Please enter the password!")
 	private String password;
 	
-	
+	//confirm password transient field
 	@Transient
 	private String confirmPassword;
 	

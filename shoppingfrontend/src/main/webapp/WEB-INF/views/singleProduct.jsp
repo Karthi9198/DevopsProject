@@ -67,7 +67,7 @@
 				
 			</security:authorize>
 
-			<a href="${contextRoot}/show/all/products" class="btn btn-primary">Back</a>
+			<a href="${contextRoot}/show/all/products" class="btn btn-primary">Continue Shopping</a>
 		</div>
 	</div>
 </div>

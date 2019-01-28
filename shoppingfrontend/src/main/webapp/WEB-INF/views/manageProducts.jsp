@@ -104,6 +104,7 @@
 							<div class="col-md-8">
 								<sf:input type="number" path="quantity" id="quantity"
 									placeholder="Quantity Available" class="form-control" />
+								<sf:errors path="quantity" cssClass="help-block" element="em"/> 
 							</div>
 
 						</div>
@@ -131,12 +132,12 @@
 									itemLabel="name"
 									itemValue="id" />
 
-								<c:if test="${product.id == 0}">
+								<%-- <c:if test="${product.id == 0}">
 									<div class="text-right">
 										<br />
 										<button type="button" data-toggle="modal" data-target="#myCategoryModal" class="btn btn-warning btn-xs">Add Category</button>
 									</div>
-								</c:if>
+								</c:if> --%>
 							</div>
 
 						</div>

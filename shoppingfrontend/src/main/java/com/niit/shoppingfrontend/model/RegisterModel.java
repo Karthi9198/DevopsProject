@@ -7,9 +7,6 @@ import com.niit.shoppingbackend.dto.User;
 
 public class RegisterModel implements Serializable {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	
 	/*
@@ -17,14 +14,12 @@ public class RegisterModel implements Serializable {
 	 */
 
 	private User user;
-	
 	private Address billing;
 
 	/*
 	 * getters and setters
 	 */
-	
-	
+
 	public User getUser() {
 		return user;
 	}
