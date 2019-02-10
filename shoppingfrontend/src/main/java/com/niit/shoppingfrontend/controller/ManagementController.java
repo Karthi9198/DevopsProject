@@ -135,8 +135,8 @@ public class ManagementController {
 		product.setActive(!product.isActive());
 		productDAO.update(product);
 		
-	//	String str = (isActive)? "You have successfully deactivated the product with id " + product.getId()
-		// :"You have successfully activated the product with id " + product.getId() ;
+		String str = (isActive)? "You have successfully deactivated the product with id " + product.getId()
+		 :"You have successfully activated the product with id " + product.getId() ;
 		return (isActive)? "You have successfully deactivated the product with id "
 		 :"You have successfully activated the product with id " ;
 	}

@@ -63,12 +63,12 @@
 
 						<div class="form-group">
 
-							<label class="control-label col-md-4" for="brand"> Brand
+							<label class="control-label col-md-4" for="author"> Author
 								Name: </label>
 							<div class="col-md-8">
-								<sf:input type="text" path="brand" id="brand"
-									placeholder="Brand Name" class="form-control" />
-								<sf:errors path="brand" cssClass="help-block" element="em" />
+								<sf:input type="text" path="author" id="author"
+									placeholder="Author Name" class="form-control" />
+								<sf:errors path="author" cssClass="help-block" element="em" />
 							</div>
 
 						</div>
@@ -87,7 +87,7 @@
 
 						<div class="form-group">
 
-							<label class="control-label col-md-4" for="brand"> Unit
+							<label class="control-label col-md-4" for="author"> Unit
 								Price: </label>
 							<div class="col-md-8">
 								<sf:input type="number" path="unitPrice" id="unitPrice"
@@ -99,7 +99,7 @@
 
 						<div class="form-group">
 
-							<label class="control-label col-md-4" for="brand">Quantity
+							<label class="control-label col-md-4" for="author">Quantity
 								Available: </label>
 							<div class="col-md-8">
 								<sf:input type="number" path="quantity" id="quantity"
@@ -124,7 +124,7 @@
 
 						<div class="form-group">
 
-							<label class="control-label col-md-4" for="brand"> Select
+							<label class="control-label col-md-4" for="author"> Select
 								Category: </label>
 							<div class="col-md-8">
 								<sf:select class="form-control" path="categoryId" id="categoryId" 
@@ -132,12 +132,12 @@
 									itemLabel="name"
 									itemValue="id" />
 
-								<%-- <c:if test="${product.id == 0}">
+							    <c:if test="${product.id == 0}">
 									<div class="text-right">
 										<br />
 										<button type="button" data-toggle="modal" data-target="#myCategoryModal" class="btn btn-warning btn-xs">Add Category</button>
 									</div>
-								</c:if> --%>
+								</c:if>
 							</div>
 
 						</div>
@@ -190,7 +190,7 @@
 									<td>ID</td>
 									<td>&#160;</td>
 									<td>Name</td>
-									<td>Brand</td>
+									<td>Author</td>
 									<td>Quantity</td>
 									<td>Unit Price</td>
 									<td>Active</td>

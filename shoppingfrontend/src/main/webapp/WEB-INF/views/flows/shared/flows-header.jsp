@@ -18,7 +18,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Online Shopping - ${title}</title>
+<title>The Book Shop - ${title}</title>
 
 <script>
 	window.menu = '${title}';
